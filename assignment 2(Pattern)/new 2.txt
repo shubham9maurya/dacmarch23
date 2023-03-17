@@ -1,0 +1,17 @@
+lass pattern2_10{
+	public static void main(String args[])
+		{
+			for(int i=1;i<=5;i++)
+			{
+				for(int m=i;m<=4;m++)
+				{
+					System.out.print(" ");
+				}
+				for(int k=1;k<=5;k++)
+				{
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+		}
+	}
